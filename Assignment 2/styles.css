@@ -1,0 +1,90 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply background images to the body */
+body {
+    background-image: url('background.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Apply a background image to the header */
+header {
+    background-image: url('header3.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: gray;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Style the main content area */
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the lyrics container */
+#lyrics {
+    background-color: transparent;
+}
+
+/* Remove padding and box-shadow for p elements */
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    padding: 0;
+    box-shadow: none;
+}
+
+/* Style specific elements */
+#chorus {
+    font-style: italic;
+    font-weight: bold;
+    color: #ff5733;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+#verse2 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Footer style */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Add a hover effect to the chorus */
+#chorus:hover {
+    color: #ff5733;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+#verse1,
+#verse2 {
+    text-indent: -1em;
+    padding-left: 1em;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+}
+
